@@ -112,7 +112,7 @@ public class MyUtils {
      *
      * @param from 1-ая дата
      * @param to   2-ая
-     * @return разница в миллисекундах
+     * @return разница в милисекундах
      */
     private static long getTimeTo(Date from, Date to) {
         if (to.getTime() <= from.getTime()) {
